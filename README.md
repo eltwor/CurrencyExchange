@@ -1,4 +1,5 @@
 # Currency Converter
+[![Static Badge](https://img.shields.io/badge/Live_Demo-Click_here-brightgreen?style=for-the-badge&logo=rocket&logoColor=white)](https://eltwor.github.io/CurrencyExchange/)
 
 A React-based currency converter and historical exchange rate visualizer. 
 Fetches real-time and historical data from a public API [Frankfurter]. Allows users to select currency pairs and view exchange rate trends. Implements a 7-day simple moving average [SMA] to smooth out short-term fluctuations and highlight underlying trends. The 7‑day simple moving average (SMA) is calculated by averaging the exchange rate over the previous 7 days, smoothing out daily volatility to reveal the underlying trend.
