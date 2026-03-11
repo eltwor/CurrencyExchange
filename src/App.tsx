@@ -42,7 +42,7 @@ function App() {
         if (fromCurrency === toCurrency) {
           setToAmount(fromAmount);
         } else {
-          const data = await currencyApi.calculateTransfer(fromCurrency, toCurrency, fromAmount);
+          const data = await currencyApi.calculateTransfer(fromCurrency, toCurrency);
           const conversionRate: number = Object.entries(data.rates)[0][1] as number;
           setToAmount(fromAmount * conversionRate);
         }

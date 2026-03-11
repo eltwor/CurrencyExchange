@@ -10,8 +10,7 @@ export const currencyApi = {
   },
   calculateTransfer: async (
     fromCurrency: string,
-    toCurrency: string,
-    amount: number,
+    toCurrency: string
   ) => {
     if (!fromCurrency || !toCurrency) {
       throw new Error("No selected currency");
